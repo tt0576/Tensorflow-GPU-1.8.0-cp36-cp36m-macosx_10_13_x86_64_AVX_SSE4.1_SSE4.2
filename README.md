@@ -6,12 +6,12 @@
 macOS High Sierra	10.13.6<br />
 TensorFlow 1.8<br />
 python 3.6.5/6<br />
-NVIDIA Web-Drivers	387.10.10.10.40.105<br />
+NVIDIA Web-Drivers 387.10.10.10.40.105<br />
 CUDA-Drivers 387.178<br />
 CUDA Toolkit 9.1.128<br />
 cuDNN 7.0.5<br />
 <br />
->用户配置<br />
+>~/.bash_profile<br />
 export CUDA_HOME=/usr/local/cuda<br />
 export DYLD_LIBRARY_PATH="$CUDA_HOME/lib:$CUDA_HOME/extras/CUPTI/lib"<br />
 export LD_LIBRARY_PATH=$DYLD_LIBRARY_PATH<br />
